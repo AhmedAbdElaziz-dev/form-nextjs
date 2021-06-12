@@ -14,3 +14,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.form {
+  width: 300px;
+  margin: 7% auto;
+  padding: 30px;
+  border: 1px solid lightskyblue;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0px;
+  height: 30px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid lightskyblue;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin: 30px 60px;
+  background: lightskyblue;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+}
